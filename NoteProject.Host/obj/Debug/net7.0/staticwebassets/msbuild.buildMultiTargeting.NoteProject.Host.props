@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NoteProject.Host.props" />
+</Project>

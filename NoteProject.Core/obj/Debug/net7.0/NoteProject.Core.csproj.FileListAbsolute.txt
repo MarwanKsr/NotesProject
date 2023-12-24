@@ -1,0 +1,12 @@
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\bin\Debug\net7.0\NoteProject.Core.deps.json
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\bin\Debug\net7.0\NoteProject.Core.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\bin\Debug\net7.0\NoteProject.Core.pdb
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.csproj.AssemblyReference.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.AssemblyInfoInputs.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.AssemblyInfo.cs
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\refint\NoteProject.Core.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\NoteProject.Core.pdb
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Core\obj\Debug\net7.0\ref\NoteProject.Core.dll

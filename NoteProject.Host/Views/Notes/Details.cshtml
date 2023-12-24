@@ -1,0 +1,19 @@
+﻿@model NoteViewModel
+
+@{
+    ViewData["Title"] = "Note";
+}
+
+<div class="mt-5">
+    <div class="row g-4">
+        <div class="col">
+            <div class="card">
+                <img src="@Model.ImageUrl" class="card-img-top" alt="..." width="auto" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title text-center">@Model.Name</h5>
+                    <p class="card-text">@Model.Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

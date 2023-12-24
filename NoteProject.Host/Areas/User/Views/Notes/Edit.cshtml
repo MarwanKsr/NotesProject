@@ -1,0 +1,81 @@
+﻿@model NoteUpdateModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/Account.css" asp-append-version="true" />
+<form id="kt_modal_edit_note_form" class="d-flex justify-content-center align-items-center mt-4" asp-area="User" asp-controller="Notes"
+      asp-action="Edit" data-ajax="true" data-ajax-method="POST" enctype="multipart/form-data" data-ajax-success="onEditNoteSuccess">
+    <div class="card d-flex justify-content-center align-items-center mt-5">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="mb-4 tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p class="fs-3 text-center my-2">Edit Note</p>
+                <div class="form d-flex flex-column justify-content-center align-items-center px-4 pt-3">
+                    @Html.HiddenFor(e => e.Id)
+                    <div class="row">
+                        @Html.LabelFor(e => e.Name, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                        @Html.EditorFor(e => e.Name, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                    </div>
+                    <div class="row">
+                        @Html.LabelFor(e => e.Content, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                        @Html.EditorFor(e => e.Content, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                    </div>
+                    <div class="row">
+                        @Html.LabelFor(e => e.Image, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                        @Html.EditorFor(e => e.Image, new
+                            {
+                                htmlAttributes = new
+                                {
+                                    @class = "form-control mt-2",
+                                }
+                            })
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-block">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        function onEditNoteSuccess(res) {
+            showTosater(res);
+            if (res.type == '@((int)ToasterResultType.Success)') {
+                setTimeout(function () {
+                    window.location.assign("/");
+                }, 500);
+            }
+        };
+    </script>
+}

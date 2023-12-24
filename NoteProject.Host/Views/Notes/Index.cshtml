@@ -1,0 +1,58 @@
+﻿@model IEnumerable<NoteViewModel>
+
+@{
+    ViewData["Title"] = "Notes";
+}
+
+<div>
+    <div class="d-flex justify-content-end">
+        <div class="col-6">
+            <p class="fs-3 mb-4">Notes</p>
+        </div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="col-6 text-end">
+                <a class="btn btn-secondary px-4" asp-area="User" asp-controller="Notes" asp-action="Create">Add</a>
+            </div>
+        }
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var note in Model)
+        {
+            <a class="details" asp-controller="Notes" asp-action="Details" asp-route-id="@note.Id">
+                <div class="col">
+                    <div class="card">
+                        <img src="@note.ImageUrl" class="card-img-top" alt="..." width="200px" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">@note.Name</h5>
+                            <p class="card-text">@note.Content</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a class="btn btn-primary" asp-area="User" asp-controller="Notes" asp-action="Edit" asp-route-id="@note.Id">Edit</a>
+                                    <a onclick="deleteNote(@note.Id)" class="btn btn-danger">Delete</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function deleteNote(id) {
+            $.ajax({
+                url: `user/notes/delete/${id}`,
+                success: function (result) {
+                    showTosater(result);
+                    setTimeout(function () {
+                        window.location.reload();
+                    }, 500);
+                }
+            });
+        }
+    </script>
+}

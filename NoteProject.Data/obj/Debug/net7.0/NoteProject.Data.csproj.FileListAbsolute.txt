@@ -1,0 +1,17 @@
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Data.deps.json
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Data.runtimeconfig.json
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Data.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Data.pdb
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Core.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\bin\Debug\net7.0\NoteProject.Core.pdb
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.csproj.AssemblyReference.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.AssemblyInfoInputs.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.AssemblyInfo.cs
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.csproj.CopyComplete
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\refint\NoteProject.Data.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.pdb
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\NoteProject.Data.genruntimeconfig.cache
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Data\obj\Debug\net7.0\ref\NoteProject.Data.dll
