@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NoteProject.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+427fbd0885d00856ed28ba365a69c063b581b3b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NoteProject.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NoteProject.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

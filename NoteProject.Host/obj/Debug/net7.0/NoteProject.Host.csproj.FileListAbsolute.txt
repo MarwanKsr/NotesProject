@@ -279,3 +279,4 @@ C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Host\bin\Debug\net7.0\No
 C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Host\obj\Debug\net7.0\NoteProject.Host.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Host\bin\Debug\net7.0\FluentEmail.Core.dll
 C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Host\bin\Debug\net7.0\FluentEmail.Smtp.dll
+C:\Users\Casper TR\source\repos\NoteProject\NoteProject.Host\obj\Debug\net7.0\NoteProject.Host.sourcelink.json

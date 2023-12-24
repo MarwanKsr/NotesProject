@@ -2,6 +2,9 @@
 
 @{
     ViewData["Title"] = "Notes";
+
+    var siteUrl = HostAppSetting.Instance.SiteUrl;
+    var noteUrl = $"{siteUrl}/Notes/";
 }
 
 <div>
@@ -31,6 +34,7 @@
                                 {
                                     <a class="btn btn-primary" asp-area="User" asp-controller="Notes" asp-action="Edit" asp-route-id="@note.Id">Edit</a>
                                     <a onclick="deleteNote(@note.Id)" class="btn btn-danger">Delete</a>
+                                    <a onclick="copyTextToClipboard('@(noteUrl + note.Id)')" class="btn btn-secondary">Copy Link</a>
                                 }
                             </div>
                         </div>
@@ -52,6 +56,19 @@
                         window.location.reload();
                     }, 500);
                 }
+            });
+        }
+
+        function copyTextToClipboard(text) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(text).select();
+            document.execCommand("copy");
+            $temp.remove();
+            showTosater({
+                type: 0,
+                title: "Share Note",
+                message: "Link of note is copied"
             });
         }
     </script>
